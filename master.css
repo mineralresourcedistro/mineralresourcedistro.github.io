@@ -1,0 +1,48 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background-color: yellow;
+}
+
+  /* Link styling */
+a:link {
+  cursor: not-allowed;
+  font-family: times;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+img{
+  width:50%;
+}
+
+/* Media queries */
+/* Mobile */
+@media only screen and (max-device-width:800px){
+  html{
+    -webkit-text-size-adjust: 180%;
+  }
+  body {
+    display:inline;
+  }
+    img{
+      width:100%;
+    }
+  .goodluck{
+    padding-top:5%;
+  }
+
+/* Responsive desktop */
+@media screen and (max-width: 840px){
+  body {
+    display: inline;
+  }
+  img{
+    width:100%;
+  }
+  .goodluck{
+    padding-top:5%;
+  }
+
+}
