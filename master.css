@@ -16,7 +16,18 @@ a:link {
 img{
   width:50%;
 }
+.releaseimagecontainer {
+    z-index:0;
+    text-align:center;
 
+}
+.wrapper{
+    padding-top: 0%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px;
+}
 /* Media queries */
 /* Mobile */
 @media only screen and (max-device-width:800px){
@@ -29,8 +40,13 @@ img{
     img{
       width:100%;
     }
-  .goodluck{
-    padding-top:5%;
+  .wrapper{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 70px;
+  }
+.releaseimagecontainer {
+    text-align:center;
   }
 
 /* Responsive desktop */
@@ -41,8 +57,12 @@ img{
   img{
     width:100%;
   }
-  .goodluck{
-    padding-top:5%;
-  }
-
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 70px;
+    }
+  .releaseimagecontainer {
+      text-align:center;
+    }
 }
