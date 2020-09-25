@@ -31,7 +31,7 @@ body {
   position: sticky;
   font-family:viking;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: red;
   border: 1px solid red;
 
