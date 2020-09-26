@@ -21,13 +21,15 @@ body {
   padding-top: 3%;
   margin-left: 1%;
 }
+h1{
+  font-size: 600%;
+}
 .header{
   text-align: center;
   padding: 1%;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 40px;
   top:1%;
   position: sticky;
   font-family:viking;
@@ -80,6 +82,24 @@ img{
     display:inline;
     color: red;
   }
+  h1{
+    font-size: 710%;
+  }
+  .header{
+    text-align: center;
+    padding: 1%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    top:1%;
+    position: sticky;
+    font-family:viking;
+    color: transparent;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: red;
+    border: 2px solid red;
+
+  }
   .mr01{
     text-align: center;
     font-size: 150%;
@@ -93,6 +113,14 @@ img{
     img{
       width:90%;
     }
+    .contact{
+      font-size: 200%;
+      color: red;
+      font-family: sans-serif;
+      padding-top: 3%;
+      padding-top: 13%;
+      margin-left: 3.5%;
+    }
   /*.wrapper{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -104,12 +132,31 @@ img{
   body {
     display: inline;
   }
-  .bottom{
-    font-size: 90%;
+  h1{
+    font-size: 410%;
+  }
+  .header{
+    text-align: center;
+    padding: 1%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    top:1%;
+    position: sticky;
     font-family:viking;
     color: transparent;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: red;
+    border: 1px solid red;
+
+  }
+  .contact{
+    font-size: 80%;
+    color: red;
+    font-family: sans-serif;
+    padding-top: 3%;
+    padding-top: 3%;
+    margin-left: 3.5%;
   }
   .mr01{
     width: 90%;
